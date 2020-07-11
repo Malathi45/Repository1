@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="testcase.TC008">
+        <methods>
+          <include name="coachTrain"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC008 -->
+      <class name="testcase.TC004">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC004 -->
+      <class name="testcase.TC007">
+        <methods>
+          <include name="saloonMandatoryCheck"/>
+        </methods>
+      </class> <!-- testcase.TC007 -->
+      <class name="testcase.TC009">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC009 -->
+      <class name="testcase.TC001">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC001 -->
+      <class name="testcase.TC002">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC002 -->
+      <class name="testcase.TC003">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC003 -->
+      <class name="testcase.TC006">
+        <methods>
+          <include name="BookHotelss"/>
+        </methods>
+      </class> <!-- testcase.TC006 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
